@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: url(https://afaiz-space.github.io/logIn-page/assets/bg-curve.svg)
+      no-repeat 100% 0 / contain,
+    url(https://afaiz-space.github.io/logIn-page/assets/bg-circle-g.svg)
+      no-repeat -25% 100%/50% 50%,
+    #2148c0;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.h-img {
+  margin: 0rem 0 2rem 0;
+}
+
+.form_container > form > div {
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 0px -2px,
+    rgba(247, 251, 255, 0.65) 0px 4px 6px -1px,
+    rgba(222, 216, 216, 0.973) 0px 1px 0px;
+  width: 250px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 0.5em;
+}
+.form_container > form > div > input {
+  width: 95%;
+  height: 100%;
+  background-color: #2148c0;
+  border: none;
+  outline: none;
+  margin-left: 0.5rem;
+  color: #fff;
+}
+.form_container > form > div > input::placeholder {
+  color: #d7d1d1;
+}
+
+.btn-container {
+  width: 100%;
+  height: 30px;
+  margin: 2rem 0 0 0;
+}
+.btn-container > button {
+  width: 100%;
+  height: 100%;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  color: #2148c0;
+  transition: all 0.3s ease;
+}
+.btn-container > button:hover {
+  cursor: pointer;
+  background-color: #2148c0;
+  border: 1px solid #fff;
+  color: #fff;
+  outline: none;
+}
+.fp {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.fp > span > a {
+  text-decoration: none;
+  color: #fff;
+}
+.fp > span > a:hover {
+  text-decoration: underline;
+}
